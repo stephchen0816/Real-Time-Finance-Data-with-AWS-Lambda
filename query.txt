@@ -1,0 +1,5 @@
+SELECT name AS Company, substr(ts,1,10) as Date, AVG(volatility) as Avg_Volatility, MAX(volatility) as Max_Volatility, MIN(volatility) as Min_Volatility
+FROM s3_athena_project3
+WHERE ts > '2023-04-03' and ts < '2023-04-14'
+GROUP BY 1,2
+ORDER BY 1,2;
