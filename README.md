@@ -9,11 +9,11 @@ Below are the four major infrastructure elements used for the data:
 3.	A serverless process that allows us to query our S3 data 
 4.	Visualizations of the query results (Jupyter)
 
-By using these elements, it allows us to query and analyze data in real-time.
-
-2 visualizations were the created using Jupyter to answer the questions below:
+2 of the visualizations were then created using Jupyter to answer the questions below:
 * Which company is the most volatile?
 * Do the findings from this graph support your conclusion from the first graph?
+
+By using these elements, it allows us to query and analyze data in real-time.
 ## Data Overview
 The stock data of high and low prices of stock are between April 3rd, 2023, and April 14th, 2023 of specific companies was used in this data set.
 
@@ -53,4 +53,4 @@ Based on the graph above, Costco (COST) is most volatile stock.
 **Do the findings from this graph support your conclusion from the first graph?**
 ![visual02](https://github.com/stephchen0816/Real-Time-Finance-Data-with-AWS-Lambda/assets/144307777/7218877c-86f5-4086-a269-7a4c49b8a9e1)
 
-The graph above supports that Costco (COST) is most volatile stock daily. 
+The graph above supports that Costco (COST) is most volatile stock on a daily basis. 
